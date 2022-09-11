@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo 'Note:'
+echo 'Please be careful you will delete all the files if you are not careful.'
+echo 'Please execute this program in the same directory where the files are.'
+echo '>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'
+echo 'Enter the extension of files you want to delete:'
+read toBeDeleted
+rm *$toBeDeleted
+echo 'DONE!!!'
+
+
